@@ -39,12 +39,12 @@ public class CalculatorTest {
   
   @Test
   public void testMultiply() {
-    assertEquals(2, MyCalculator.multiply(5, 3),DELTA);
+    assertEquals(15, MyCalculator.multiply(5, 3),DELTA);
   }
   
   @Test
   public void testDivide() {
-    assertEquals(2, MyCalculator.divide(5, 3),DELTA);
+    assertEquals(1.666, MyCalculator.divide(5, 3),DELTA);
   }
 
 }
