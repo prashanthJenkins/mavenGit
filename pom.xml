@@ -4,4 +4,9 @@
   <artifactId>sampleArtifact</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>sampleName</name>
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version> <!-- Or whatever JUnit you're using. -->
+  </dependency>
 </project>
