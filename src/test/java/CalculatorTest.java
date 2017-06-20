@@ -36,5 +36,15 @@ public class CalculatorTest {
   public void testSubstract() {
     assertEquals(2, MyCalculator.substract(5, 3),DELTA);
   }
+  
+  @Test
+  public void testMultiply() {
+    assertEquals(2, MyCalculator.multiply(5, 3),DELTA);
+  }
+  
+  @Test
+  public void testDivide() {
+    assertEquals(2, MyCalculator.divide(5, 3),DELTA);
+  }
 
 }
