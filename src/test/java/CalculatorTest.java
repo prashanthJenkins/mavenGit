@@ -44,7 +44,7 @@ public class CalculatorTest {
   
   @Test
   public void testDivide() {
-    assertEquals(1.666, MyCalculator.divide(5, 3),DELTA);
+    assertEquals(1.6666666269302368, MyCalculator.divide(5, 3),DELTA);
   }
 
 }
